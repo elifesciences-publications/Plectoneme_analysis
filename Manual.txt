@@ -3,7 +3,7 @@ Written by Sung Hyun Kim (ifolium@gmail.com)
 This script is based on a script written by Marijn van Loenhout (van Loenhout et al., 2012 Science 338, 94) and Jacob Kerssemakers.
 ________________________________________________________________________
 Data format
-Fluorescence image data should be stored in tiff file format and each frame should be saved in a separate file and numbered sequentially (see example data set).
+Fluorescence image data should be stored in tiff file format and each frame should be saved in a separate file and numbered sequentially.
 
 Procedure
 1.	Run Master_analyzer.m
@@ -11,7 +11,7 @@ Procedure
 3.	The fluorescence image will be shown in a pop up window. And you will be asked to enter DNA number to analyze. If you have not analyze any DNA previously or if you want analyze a new DNA molecule in the image, enter 0.
 4.	If you chose 0, then, cross hair cursor will show up and you can specify the position of the linearized DNA. Use left mouse button to click the start position of the DNA of interest and right mouse button for the end position. Then a close up image will be shown on the right. If you are satisfied with the clicking, then press middle mouse button. 
 5.	Then the script will read all the tiff files in the folder and build an intensity kymograph of the DNA molecule, which will be shown in another figure window. In the kymograph, you can select frames that should be analyzed by clicking with left mouse button for start frame and right button for end frame. Middle button will terminate the selection process.
-6.	Then you will be asked if another folder should be read for nicked DNA molecule. If your kymograph already shows nicking, then choose ¡®Select from current¡¯. If you have measured a torsionally relaxed DNA in other directory, chose ¡®Look up another folder.
+6.	Then you will be asked if another folder should be read for nicked DNA molecule. If your kymograph already shows nicking, then choose Â¡Â®Select from currentÂ¡Â¯. If you have measured a torsionally relaxed DNA in other directory, chose Â¡Â®Look up another folder.
 7.	When a kymograph of a nick DNA shows up, repeat frame selection again.
 8.	After building the kymograph of both coiled and nicked DNA, averaged intensity profiles of the nicked and coiled DNA will be displayed in another figure window.
 9.	Then, you will be asked if you want to specify the DNA end positions manually or automatically. The automatically found end positions are shown with vertical lines in the intensity profiles.
