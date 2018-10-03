@@ -3,7 +3,7 @@ Written by Sung Hyun Kim (ifolium@gmail.com)
 This script is based on a script written by Marijn van Loenhout (van Loenhout et al., 2012 Science 338, 94) and Jacob Kerssemakers.
 ________________________________________________________________________
 Data format
-Fluorescence image data should be stored in tiff file format and each frame should be saved in a separate file and numbered sequentially.
+Fluorescence image data should be stored in tiff file format and each frame should be saved in a separate file and numbered sequentially. The first 10 frames should be taken under 632nm laser excitation and the remaining frames with 532nm ex.
 
 Procedure
 1.	Run Master_analyzer.m
